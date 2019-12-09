@@ -1,31 +1,41 @@
-#incial{
+body{
+    background: 
+    -webkit-radial-gradient(140%, 
+                            circle cover, 
+                            #29b4ff 0%,
+                            #ec82fd 100%);  
+}
+
+
+#principal{
     float: left;
     width: auto;
     height: 500px;
-    background: #FFF;
-    border: solid 1px #A2A2A2;
-    margin-right: 5px;
+    border: solid 5px #000;
+    margin-right: 500px; 
 }
-#cronometro_game{
+
+#cronometro-tabela{
     width: 140px;
     height: 132px;
 }
 
 .cronometro{
-    background: url('imagem/cronometro.png');
+    background: url('imagens/plin(1).png');
     text-align: center;
 }
 
 #cronometro{
-    color: black;
+    color: #000 ;
     font-size: 30px;
 
 }
-#baloes_inteiros{
+
+#balloon_inteiros{
     font-size: 40px;
 }
 
-#baloes_estourados{
+#balloon_estourados{
     font-size: 40px;
 }
 
@@ -33,6 +43,12 @@
     float: left;
     width: 600px;
     height: 500px;
-    background: url('imagem,/campo.jpg');
-    background-position: bottom;
+    background: url('imagens/cenario.png');
+    
+}
+
+a{
+width:900px;
+height:600px;
+color:black;
 }

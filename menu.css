@@ -1,0 +1,23 @@
+body{
+margin: 0;
+background: 
+    -webkit-radial-gradient(140%, 
+                            circle cover, 
+                            #29b4ff 0%,
+                            #ec82fd 100%);
+}
+
+a{
+	font-size:50pt; 
+	display: block;
+	height: 50px
+	width:400px;
+	margin:50px;
+	color: black;
+	border-radius: 30px;
+}
+.corpo{
+	/*background-color: red;*/
+	width: 420px;
+	margin:150px auto 0px auto; 
+}
