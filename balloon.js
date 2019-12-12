@@ -16,7 +16,7 @@ function iniciaJogo(){
 
     //3 difícil
     if(nivel_jogo == 3){
-        tempo_segundos = 30;
+        tempo_segundos = 45;
     }
 
     // inserindo segundos
@@ -52,7 +52,7 @@ function contagem_tempo(segundos){
 
 function game_over(){
     remove_eventos_baloes();
-    alert('Fim de jogo, você não conseguiu estourar todos os balões a tempo');
+    alert('QUE PENINHA! VOCÊ PERDEU KKKKKK.');
 }situacao_jogo:
 
 function cria_baloes(qtde_baloes){
@@ -93,7 +93,7 @@ function pontuacao(acao){
 
 function situacao_jogo(balloon_inteiros){
     if(balloon_inteiros == 0){
-        alert('Parabéns, você conseguiu estourar todos os balões e tempo');
+        alert('Parabéns!!!');
         parar_jogo();
     }
 }

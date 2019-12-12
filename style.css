@@ -45,10 +45,68 @@ body{
     height: 500px;
     background: url('imagens/cenario.png');
     
+
 }
 
-a{
-width:900px;
-height:600px;
-color:black;
+.a2{
+    text-decoration: none;
+    text-decoration: none;
+    color:#5f7a06;
+    color: #FFF;
+    font-size: 150%;
+    font-size: 150%;
+    margin-right:5%;
+    margin-right:10%;
+    font-family: 'AkzidenzGrotesk BQ Bold';
+    font-family: 'OpenSans-Bold';
+
+
+
+}
+
+.banner{
+    position: absolute;
+    left: 100px;
+    top: 0px;
+    z-index: -1;
+}
+.banner{
+    text-align: left;
+    padding-top: 30%;
+    padding-left: 10%;
+}
+
+
+
+h3{
+    color: #000;
+    font-size: 30pt;
+    margin-right:15%;
+    margin-right:20%;
+    font-family: 'OpenSans-Bold';
+    padding-top:2%;
+    padding-left: 45%;
+}
+
+#nivel_jogo{
+    border-radius: 5px;
+    padding-top: 1%;
+    padding-left:5%;
+    display: inline-block;
+    border: 2px solid #000;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-right: 5%;
+    margin-left: 45%;
+font-family: 'Arial';
+font-size: 16pt;
+
+}
+
+element {
+
+    margin: 10px;
+    top: -20px;
+    position: relative;
+
 }
