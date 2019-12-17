@@ -3,8 +3,8 @@ margin: 0;
 background: 
     -webkit-radial-gradient(140%, 
                             circle cover, 
-                            #29b4ff 0%,
-                            #ec82fd 100%);
+                            #fcfcfc 0%,
+                           #4966eb  100%);
 }
 
 a{
